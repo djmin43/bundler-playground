@@ -3,5 +3,8 @@
     "esbuild": "^0.14.38",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
+  },
+  "scripts": {
+    "build": "esbuild app.jsx --bundle --outfile=out.js"
   }
 }
