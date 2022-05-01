@@ -5,6 +5,6 @@
     "react-dom": "^18.1.0"
   },
   "scripts": {
-    "build": "esbuild app.jsx --bundle --outfile=out.js"
+    "build": "esbuild app.jsx --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge16"
   }
 }
